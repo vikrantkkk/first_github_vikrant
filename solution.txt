@@ -1,1 +1,3 @@
-3ebibebcicecb
+ Q. What is the difference between git stash apply and git stash pop?
+git stash apply: This command applies the most recently created stash to your working directory, without removing it from the stash list. If you have multiple stashes, you can specify which stash to apply by using the git stash apply stash@{n} command, where n is the index of the stash you want to apply.
+git stash pop: This command applies the most recently created stash to your working directory, and removes it from the stash list. This means that the changes you stashed are no longer available for later use. If you have multiple stashes, you can specify which stash to pop by using the git stash pop stash@{n} command, where n is the index of the stash you want to pop.
