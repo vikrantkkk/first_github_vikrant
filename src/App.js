@@ -1,25 +1,18 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Inputadd from './assignment1/input_onclick'
+import Second from './assignment2/increase_count'
+import Namechange from './assignment3/name_change'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return(
+    <>
+    <Inputadd/>
+    <Second/>
+    <Namechange/>
+    </>
+  )
+
 }
 
 export default App;
