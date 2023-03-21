@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 4rem;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    justify-content: center;
+    align-items: center;
+
+}
+.navbar .list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.navbar .list li{
+    margin: 0 1rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.userProfile{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  
+}
+.userProfile .login{
+    margin: 0 1rem;
+}
+.login button{
+    padding: 1rem;
+    background-color: #fff;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-weight:500 ;
+    border:2px solid #fff;
+}
+.signup button{
+    background-color: #fff;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-weight:500 ;
+    padding: 1rem;
+    border:2px solid #fff;
+}
+button:hover{
+    border:2px solid rgb(241, 193, 35);
+    cursor: pointer;
+}
+.menuBtn{
+    padding: 1rem;
+}
+.menuBtn button{
+    padding: 1rem;
+    display: none;
+}
+
+@media screen and (max-width: 780px){
+    .container{
+        padding: 0 2rem;
+       
+    }
+    .navbar{
+        display: none;
+    }
+    .menuBtn{
+        display: block;
+        
+    }
+    .userProfile .login {
+        display: none;
+    }
+    .signup button{
+        display: none;
+    }
+    .menuBtn button{
+        display: block;
+        background-color: #fff;
+        border: none;
+        border-radius: 2rem;
+        font-size: 1rem;
+        font-weight:500 ;
+        padding: 1rem;
+        border:2px solid #fff;
+    }
+    .menuBtn button:hover{
+        cursor: pointer;
+    }
+}  
+.navbarMobile{
+   display: block;
+   list-style: none;
+   transition: all 2s ease-out;
+    margin-top: 9rem;
+    background-color: antiquewhite;
+    width: 40vw;
+}
+.navbarMobile .list{
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+   
+}
+.navbarMobile .list li{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
