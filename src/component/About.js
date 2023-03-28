@@ -1,5 +1,4 @@
 import React from 'react'
-// import background from './background.jpg'
 import about from './main.module.css'
 import Navbar from './Navbar'
 
@@ -16,7 +15,7 @@ export default function About() {
                 <button className={about.btn_howToUse}>Contact Us</button>
             </div>
             <div className={about.image_bg}>
-                {/* <img src={background} alt="background" /> */}
+                <img src="https://images.pexels.com/photos/10919342/pexels-photo-10919342.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="background" />
             </div>
         </div>
         </>
